@@ -3,4 +3,6 @@ version = 1
 [[analyzers]]
 name = "javascript"
 enabled = true
-dialect = "flow"
+
+[analyzers.meta]
+  dialect = "flow"
